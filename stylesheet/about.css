@@ -1,0 +1,122 @@
+*{
+    margin : 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.hero{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: #eff4fd;
+}
+
+nav{
+    display: flex;
+    width: 84%;
+    margin: auto;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+
+}
+
+nav ul li a:hover{
+    color:red;
+}
+
+ h1{
+    text-align: center;
+    font-size: 30px;
+    margin-top:50px;
+}
+
+section p{
+    text-align: left;
+    padding: 100px;
+    font-size: 1vw;
+}
+
+
+.bold {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+.images{
+    height: 35rem;
+    position: absolute;
+    left: 80%;
+    transform: translateX(-50%);
+    transition: bottom 1s, left 1s;
+    padding-top: 20px;
+    display: block;
+}
+
+.images img{
+    height: 500;
+    width: 500;
+    border-radius: 10%;
+}
+
+
+
+.About{
+    display: flex;
+    justify-content: space-between;
+}
+
+.Content{
+    display: block;
+    margin-left: 20px;
+}
+
+.Content h1{
+    text-align: left;
+}
+
+/* .icon{
+    width:100px;
+    height:50px;  
+} */
+
+.Content a{
+    color: #000;
+    
+}
+
+
+.Content a :hover{
+   color: #000; 
+}
+
+.Content ul{
+    margin-left: 80px;
+}
+
+
+.Content ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 20px;
+    
+}
+
+.Content ul li a i:hover{
+   color: red;
+    
+}

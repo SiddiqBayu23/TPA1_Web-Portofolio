@@ -1,0 +1,100 @@
+*{
+    margin : 0;
+    padding: 0;
+    font-family: 'Open Sans',sans-serif;
+}
+
+.hero{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: #eff4fd;
+}
+
+nav{
+    display: flex;
+    width: 84%;
+    margin: auto;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+
+}
+
+nav ul li a:hover{
+    color:red;
+}
+
+/* Barisan terakhir nav */
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  h1 {
+    text-align: center;
+    margin-top: 50px;
+  }
+  .info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+    border-top: 1px solid #ccc;
+    padding-top: 30px;
+  }
+  .info div {
+    flex-basis: 50%;
+  }
+  .info h2 {
+    margin-bottom: 5px;
+  }
+  .info p {
+    margin: 0;
+  }
+  .info i {
+    margin-right: 10px;
+  }
+  .info a {
+    color: inherit;
+    text-decoration: none;
+  }
+  form {
+    margin-top: 50px;
+  }
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: none;
+    margin-bottom: 20px;
+  }
+  textarea {
+    height: 150px;
+  }
+  input[type="reset"] {
+    background-color: #3f7ca5;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  input[type="reset"]:hover {
+    background-color: #0f161b;
+  }
